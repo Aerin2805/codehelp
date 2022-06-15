@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'dart:ui';
+import 'package:project_1/main.dart';
+import 'home_page.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -44,7 +47,7 @@ class LoginPage extends StatelessWidget {
                   ),
                   ElevatedButton(
                     onPressed: () {
-                      print("Hyy codepure");
+                      print("HYY codepure");
                     },
                     child: Text("Login"),
                     style: TextButton.styleFrom(),
